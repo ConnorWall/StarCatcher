@@ -24,7 +24,7 @@ public class Parallax : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float tY, tX=0;
-		tY= Time.time * scrollSpeed % panelHt + (panelHt*0.5f);
+		tY = Time.time * scrollSpeed % panelHt + (panelHt * 0.5f);
 		if (poi != null) {
 			tX = -poi.transform.position.x * motionMult;
 		}
