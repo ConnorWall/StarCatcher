@@ -18,7 +18,7 @@ public class Parallax : MonoBehaviour {
 		depth = panels[0].transform.position.z;
 		// Set initial positions of panels
 		panels[0].transform.position = new Vector3(0,0,depth);
-		panels[1].transform.position = new Vector3(0,panelHt,depth);
+		//panels[1].transform.position = new Vector3(0,panelHt,depth);
 	}
 
 	// Update is called once per frame
@@ -35,7 +35,7 @@ public class Parallax : MonoBehaviour {
 			//panels[1].transform.position = new Vector3(tX, tY-panelHt, depth);
 		} 
 		else {
-			panels[1].transform.position = new Vector3(tX, tY+panelHt, depth);
+			//panels[1].transform.position = new Vector3(tX, tY+panelHt, depth);
 		}
 	}
 }
