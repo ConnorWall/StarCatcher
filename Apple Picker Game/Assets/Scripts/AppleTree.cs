@@ -6,6 +6,7 @@ public class AppleTree : MonoBehaviour {
 
 	[Header("Set in Inspector")]
 
+
 	//instantiates Apples.
 	public GameObject applePrefab; 
 
