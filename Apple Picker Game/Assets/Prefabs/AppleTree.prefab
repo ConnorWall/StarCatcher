@@ -213,7 +213,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fb1792aabab68c4a992cee16fd90c1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
+  starPrefab: {fileID: 1708068548279360, guid: 0e4eb5e7d457a414794890dae97cffed, type: 2}
+  jupiterPrefab: {fileID: 0}
+  saturnPrefab: {fileID: 0}
+  earthPrefab: {fileID: 0}
+  astroidPrefab: {fileID: 0}
+  alienPrefab: {fileID: 0}
   speed: 1
   treeBorders: 20
   randomMove: 0.1

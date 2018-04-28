@@ -43,6 +43,7 @@ public class Basket : MonoBehaviour {
 		
         if (collidedWith.tag == "Star")
         {
+			print ("Done it");
             Destroy(collidedWith);
             //Parse the text of the scoreGT into an int
             int score = int.Parse(scoreGT.text);
