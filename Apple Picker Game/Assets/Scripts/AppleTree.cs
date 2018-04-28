@@ -66,7 +66,7 @@ public class AppleTree : MonoBehaviour {
 
 	void DropApple() {
 		GameObject star = Instantiate<GameObject> (starPrefab);
-		GameObject jupiter = Instantiate<GameObject> (jupiterPrefab);
+		/*GameObject jupiter = Instantiate<GameObject> (jupiterPrefab);
 		GameObject saturn = Instantiate<GameObject> (saturnPrefab);
 		GameObject astroid = Instantiate<GameObject> (astroidPrefab);
 		GameObject earth = Instantiate<GameObject> (earthPrefab);
@@ -77,7 +77,7 @@ public class AppleTree : MonoBehaviour {
 		earth.transform.position = transform.position;
 		astroid.transform.position = transform.position;
 		saturn.transform.position = transform.position;
-		jupiter.transform.position = transform.position;
+		jupiter.transform.position = transform.position;*/
 		star.transform.position = transform.position;
 
 		//function invokes itself with the specified delay. A loop!

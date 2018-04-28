@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 212328360410825180}
   - component: {fileID: 95442481555114734}
   - component: {fileID: 54651466306309726}
-  - component: {fileID: 114373471901234984}
   - component: {fileID: 135059472632565010}
+  - component: {fileID: 114924859219292668}
   m_Layer: 0
   m_Name: star_0
   m_TagString: Star
@@ -76,7 +76,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114373471901234984
+--- !u!114 &114924859219292668
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -84,7 +84,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1708068548279360}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15ea4b155b79c1946984eb3d33f03b8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 207d999741f3eba409a810b4b47ac3bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &135059472632565010
