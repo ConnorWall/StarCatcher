@@ -180,7 +180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: '    S T A R T'
 --- !u!222 &261487591
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -604,7 +604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.3399792, y: -90.76}
+  m_AnchoredPosition: {x: 1, y: -90.76}
   m_SizeDelta: {x: 147.84, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1678706914

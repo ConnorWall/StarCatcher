@@ -8,13 +8,6 @@ public class ApplePicker : MonoBehaviour {
 	public GameObject healthPrefab;
 
 
-
-//	IEnumerator Do()
-//	{
-//	Time.timeScale = 0; 
-//	yield return new WaitForSeconds(5);
-//	Time.timeScale = 1;
-//	}
 	public int numHealth = 4;
 	public float healthBottom = -14f;
 	public float healthSpace = 2f;
@@ -33,13 +26,16 @@ public class ApplePicker : MonoBehaviour {
 			health.transform.position = pos;
             healthList.Add(tHealthGO);
 		}
+
 	}
 
-	void Update () 
+
+
+ void Update () 
 	{
-		
 
 	}
+
     //Declared public to be seen by other classes
     public void AppleDestroyed()
     {
