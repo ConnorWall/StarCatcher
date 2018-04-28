@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.4964127, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -88,7 +88,6 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -137,7 +136,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 60407622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 278, y: 161.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1655578664}
@@ -248,9 +247,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Convex: 0
-  m_CookingOptions: 14
+  m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &367765622
@@ -412,7 +411,6 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -590,9 +588,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Convex: 0
-  m_CookingOptions: 14
+  m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &1134138954
@@ -675,6 +673,42 @@ Prefab:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114916534460202050, guid: 5ecc0eb100fb7ca4496025148de1011e,
+        type: 2}
+      propertyPath: starPrefab
+      value: 
+      objectReference: {fileID: 1708068548279360, guid: 0e4eb5e7d457a414794890dae97cffed,
+        type: 2}
+    - target: {fileID: 114916534460202050, guid: 5ecc0eb100fb7ca4496025148de1011e,
+        type: 2}
+      propertyPath: jupiterPrefab
+      value: 
+      objectReference: {fileID: 1433821356131614, guid: d34fbc57ff83bcc4a965fee9cab8653e,
+        type: 2}
+    - target: {fileID: 114916534460202050, guid: 5ecc0eb100fb7ca4496025148de1011e,
+        type: 2}
+      propertyPath: saturnPrefab
+      value: 
+      objectReference: {fileID: 1152308546775002, guid: 86d58d66eafaad244878c6891a16f171,
+        type: 2}
+    - target: {fileID: 114916534460202050, guid: 5ecc0eb100fb7ca4496025148de1011e,
+        type: 2}
+      propertyPath: earthPrefab
+      value: 
+      objectReference: {fileID: 1442000345923672, guid: 034a364e3feb095419dbf9c827f79794,
+        type: 2}
+    - target: {fileID: 114916534460202050, guid: 5ecc0eb100fb7ca4496025148de1011e,
+        type: 2}
+      propertyPath: astroidPrefab
+      value: 
+      objectReference: {fileID: 1970971590410426, guid: 18287a88635fb974a9133d111f1ac4f3,
+        type: 2}
+    - target: {fileID: 114916534460202050, guid: 5ecc0eb100fb7ca4496025148de1011e,
+        type: 2}
+      propertyPath: alienPrefab
+      value: 
+      objectReference: {fileID: 1191079931410034, guid: 2b59ec401026eb946a6e0979ec723aa6,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5ecc0eb100fb7ca4496025148de1011e, type: 2}
   m_IsPrefabParent: 0
@@ -765,7 +799,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1551420738}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -258, y: 161.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1655578664}
@@ -911,8 +945,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1655578660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 268, y: 167.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1551420739}
   - {fileID: 60407623}

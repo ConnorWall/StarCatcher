@@ -8,7 +8,13 @@ public class AppleTree : MonoBehaviour {
 
 
 	//instantiates Apples.
-	public GameObject applePrefab; 
+
+	public GameObject starPrefab;
+	public GameObject jupiterPrefab;
+	public GameObject saturnPrefab;
+	public GameObject earthPrefab;
+	public GameObject astroidPrefab;
+	public GameObject alienPrefab;
 
 	//speed of the AppleTree moves.
 	public float speed = 1f; 
@@ -59,10 +65,20 @@ public class AppleTree : MonoBehaviour {
 	}
 
 	void DropApple() {
-		GameObject apple = Instantiate<GameObject> (applePrefab);
+		GameObject star = Instantiate<GameObject> (starPrefab);
+		GameObject jupiter = Instantiate<GameObject> (jupiterPrefab);
+		GameObject saturn = Instantiate<GameObject> (saturnPrefab);
+		GameObject astroid = Instantiate<GameObject> (astroidPrefab);
+		GameObject earth = Instantiate<GameObject> (earthPrefab);
+		GameObject alien = Instantiate<GameObject> (alienPrefab);
 
 		//the position of apple is set to the position of the AppleTree.
-		apple.transform.position = transform.position;
+		alien.transform.position = transform.position;
+		earth.transform.position = transform.position;
+		astroid.transform.position = transform.position;
+		saturn.transform.position = transform.position;
+		jupiter.transform.position = transform.position;
+		star.transform.position = transform.position;
 
 		//function invokes itself with the specified delay. A loop!
 		Invoke ("DropApple", appleInterval);

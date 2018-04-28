@@ -1,11 +1,23 @@
 fileFormatVersion: 2
 guid: 8fb1792aabab68c4a992cee16fd90c1c
-timeCreated: 1520711778
-licenseType: Pro
+timeCreated: 1524947641
+licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - starPrefab: {fileID: 1708068548279360, guid: 0e4eb5e7d457a414794890dae97cffed,
+      type: 2}
+  - jupiterPrefab: {fileID: 1433821356131614, guid: d34fbc57ff83bcc4a965fee9cab8653e,
+      type: 2}
+  - saturnPrefab: {fileID: 1152308546775002, guid: 86d58d66eafaad244878c6891a16f171,
+      type: 2}
+  - earthPrefab: {fileID: 1442000345923672, guid: 034a364e3feb095419dbf9c827f79794,
+      type: 2}
+  - astroidPrefab: {fileID: 1970971590410426, guid: 18287a88635fb974a9133d111f1ac4f3,
+      type: 2}
+  - alienPrefab: {fileID: 1191079931410034, guid: 2b59ec401026eb946a6e0979ec723aa6,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
