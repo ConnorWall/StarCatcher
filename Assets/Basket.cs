@@ -32,7 +32,7 @@ public class Basket : MonoBehaviour {
 
 		//moves the x position of the Basket to this x position of the mouse.
 		Vector3 pos = this.transform.position;
-		pos.x = mousePos3D.x;
+		pos.x = mousePos3D.x ;
 		this.transform.position = pos;
 	}
 
@@ -51,11 +51,7 @@ public class Basket : MonoBehaviour {
             //Convert the score back to a string and display it
             scoreGT.text = score.ToString();
 
-            //Track the high score
-            if (score > HighScore.score)
-            {
-                HighScore.score = score;
-            }
+           
         }
 	}
 }
