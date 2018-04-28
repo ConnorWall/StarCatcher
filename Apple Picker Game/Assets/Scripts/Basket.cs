@@ -41,17 +41,77 @@ public class Basket : MonoBehaviour {
 		//finds out what hit this basket.
 		GameObject collidedWith = coll.gameObject;
 		
-        if (collidedWith.tag == "Apple")
+        if (collidedWith.tag == "Star")
         {
             Destroy(collidedWith);
             //Parse the text of the scoreGT into an int
             int score = int.Parse(scoreGT.text);
             //Add points for catching an apple
-            score += 100;
+            score += 50;
             //Convert the score back to a string and display it
             scoreGT.text = score.ToString();
 
            
         }
+		if (collidedWith.tag == "Earth")
+		{
+			Destroy(collidedWith);
+			//Parse the text of the scoreGT into an int
+			int score = int.Parse(scoreGT.text);
+			//Add points for catching an apple
+			score += 30;
+			//Convert the score back to a string and display it
+			scoreGT.text = score.ToString();
+
+
+		}
+		if (collidedWith.tag == "Jupiter")
+		{
+			Destroy(collidedWith);
+			//Parse the text of the scoreGT into an int
+			int score = int.Parse(scoreGT.text);
+			//Add points for catching an apple
+			score += 20;
+			//Convert the score back to a string and display it
+			scoreGT.text = score.ToString();
+
+
+		}
+		if (collidedWith.tag == "Saturn")
+		{
+			Destroy(collidedWith);
+			//Parse the text of the scoreGT into an int
+			int score = int.Parse(scoreGT.text);
+			//Add points for catching an apple
+			score += 20;
+			//Convert the score back to a string and display it
+			scoreGT.text = score.ToString();
+
+
+		}
+		if (collidedWith.tag == "Astroid")
+		{
+			Destroy(collidedWith);
+			//Parse the text of the scoreGT into an int
+			int score = int.Parse(scoreGT.text);
+			//Add points for catching an apple
+			score -= 20;
+			//Convert the score back to a string and display it
+			scoreGT.text = score.ToString();
+
+
+		}
+		if (collidedWith.tag == "Alien")
+		{
+			Destroy(collidedWith);
+			//Parse the text of the scoreGT into an int
+			int score = int.Parse(scoreGT.text);
+			//Add points for catching an apple
+			score -= 50;
+			//Convert the score back to a string and display it
+			scoreGT.text = score.ToString();
+
+
+		}
 	}
 }

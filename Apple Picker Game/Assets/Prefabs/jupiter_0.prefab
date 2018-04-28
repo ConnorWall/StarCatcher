@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 54895989404515146}
   m_Layer: 0
   m_Name: jupiter_0
-  m_TagString: Apple
+  m_TagString: Jupiter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

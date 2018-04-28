@@ -22,9 +22,11 @@ GameObject:
   - component: {fileID: 212328360410825180}
   - component: {fileID: 95442481555114734}
   - component: {fileID: 54651466306309726}
+  - component: {fileID: 114373471901234984}
+  - component: {fileID: 135059472632565010}
   m_Layer: 0
   m_Name: star_0
-  m_TagString: Apple
+  m_TagString: Star
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,6 +76,29 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114373471901234984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708068548279360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ea4b155b79c1946984eb3d33f03b8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &135059472632565010
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708068548279360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &212328360410825180
 SpriteRenderer:
   m_ObjectHideFlags: 1
