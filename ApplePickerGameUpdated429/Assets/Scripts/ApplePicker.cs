@@ -6,19 +6,19 @@ using UnityEngine.SceneManagement;
 public class ApplePicker : MonoBehaviour
 {
 
-   /* GAMEOVER
+    //GAMEOVER
     
     private float endGameCounter;
 
     void FixedUpdate()
     {
         endGameCounter++;
-        if (endGameCounter % enter number of seconds here == 0)
+        if (endGameCounter % 1000 == 0)
         {
-            do stuff
+			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
         }
     }
-    */
+    
 
     //Declared public to be seen by other classes
     public void StarDestroyed()
