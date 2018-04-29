@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e3fe60ca15665284b9c006e33e3cae79
+timeCreated: 1520711739
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - basketPrefab: {fileID: 1930799787235692, guid: a661aabb47e00e14585e12e44d89fff0,
+      type: 2}
+  - tBasketGO: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
