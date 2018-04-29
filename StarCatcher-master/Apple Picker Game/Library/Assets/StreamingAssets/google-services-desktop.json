@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "643490808452",
+    "firebase_url": "https://starcatcher-high-scores.firebaseio.com",
+    "project_id": "starcatcher-high-scores",
+    "storage_bucket": "starcatcher-high-scores.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643490808452:android:9b78aab9ac6381e6",
+        "android_client_info": {
+          "package_name": "com.StarCatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643490808452-iee6p3bh1cgttek7aoblo7ujv701rsb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjxh9OB47qQ1erMhvKn9myRTRgeyNEZgw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
