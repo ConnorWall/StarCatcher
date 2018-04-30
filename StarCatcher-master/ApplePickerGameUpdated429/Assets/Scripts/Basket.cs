@@ -4,9 +4,16 @@ using UnityEngine;
 //enables use uGUI features
 using UnityEngine.UI; 
 
+
+
+
 public class Basket : MonoBehaviour {
     [Header("Set Dynamically")]
     public Text scoreGT;
+
+
+
+
    
 
     private void Start()
@@ -54,6 +61,9 @@ public class Basket : MonoBehaviour {
             //Convert the score back to a string and display it
             scoreGT.text = score.ToString();
 
+			AudioSource audio = GetComponent<AudioSource>();
+			audio.Play();
+
            
         }
 		if (collidedWith.tag == "Earth")
@@ -65,6 +75,8 @@ public class Basket : MonoBehaviour {
 			score += 30;
 			//Convert the score back to a string and display it
 			scoreGT.text = score.ToString();
+			AudioSource audio = GetComponent<AudioSource>();
+			audio.Play();
 
 
 		}
@@ -77,6 +89,8 @@ public class Basket : MonoBehaviour {
 			score += 20;
 			//Convert the score back to a string and display it
 			scoreGT.text = score.ToString();
+			AudioSource audio = GetComponent<AudioSource>();
+			audio.Play();
 
 
 		}
@@ -89,6 +103,8 @@ public class Basket : MonoBehaviour {
 			score += 20;
 			//Convert the score back to a string and display it
 			scoreGT.text = score.ToString();
+			AudioSource audio = GetComponent<AudioSource>();
+			audio.Play();
 
 
 		}
@@ -102,6 +118,10 @@ public class Basket : MonoBehaviour {
 			//Convert the score back to a string and display it
 			scoreGT.text = score.ToString();
 
+			AudioSource audio = GetComponent<AudioSource>();
+		
+			audio2.Play();
+
 
 		}
 		if (collidedWith.tag == "Alien")
@@ -113,6 +133,10 @@ public class Basket : MonoBehaviour {
 			score -= 50;
 			//Convert the score back to a string and display it
 			scoreGT.text = score.ToString();
+			AudioSource audio = GetComponent<AudioSource>();
+	
+			audio2.Play();
+
 		}
 
        if (collidedWith.tag == "Black Hole")
@@ -124,6 +148,10 @@ public class Basket : MonoBehaviour {
             score -= 100;
             //Convert the score back to a string and display it
             scoreGT.text = score.ToString();
+			AudioSource audio = GetComponent<AudioSource>();
+		
+			audio2.Play();
+
         }
     }
 }
