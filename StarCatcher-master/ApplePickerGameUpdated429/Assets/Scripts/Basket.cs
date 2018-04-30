@@ -120,7 +120,7 @@ public class Basket : MonoBehaviour {
 
 			AudioSource audio = GetComponent<AudioSource>();
 		
-			audio2.Play();
+			audio.Play();
 
 
 		}
@@ -135,7 +135,7 @@ public class Basket : MonoBehaviour {
 			scoreGT.text = score.ToString();
 			AudioSource audio = GetComponent<AudioSource>();
 	
-			audio2.Play();
+			audio.Play();
 
 		}
 
@@ -150,7 +150,7 @@ public class Basket : MonoBehaviour {
             scoreGT.text = score.ToString();
 			AudioSource audio = GetComponent<AudioSource>();
 		
-			audio2.Play();
+			audio.Play();
 
         }
     }
