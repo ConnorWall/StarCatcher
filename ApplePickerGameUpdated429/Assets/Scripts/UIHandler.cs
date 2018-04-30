@@ -223,50 +223,50 @@ public class UIHandler : MonoBehaviour
     }
 
     // Render the buttons and other controls.
-    void GUIDisplayControls()
-    {
-        if (UIEnabled)
-        {
-            controlsScrollViewVector =
-                GUILayout.BeginScrollView(controlsScrollViewVector);
-            GUILayout.BeginVertical();
-            GUILayout.BeginHorizontal();
-            GUILayout.Label("Email:", GUILayout.Width(Screen.width * 0.20f));
-            email = GUILayout.TextField(email);
-            GUILayout.EndHorizontal();
-
-            GUILayout.Space(20);
-
-            GUILayout.BeginHorizontal();
-            GUILayout.Label("Score:", GUILayout.Width(Screen.width * 0.20f));
-            int.TryParse(GUILayout.TextField(score.ToString()), out score);
-            GUILayout.EndHorizontal();
-
-            GUILayout.Space(20);
-
-            if (!String.IsNullOrEmpty(email) && GUILayout.Button("Enter Score"))
-            {
-                AddScore();
-            }
-
-            GUILayout.Space(20);
-
-            if (GUILayout.Button("Go Offline"))
-            {
-                FirebaseDatabase.DefaultInstance.GoOffline();
-            }
-
-            GUILayout.Space(20);
-
-            if (GUILayout.Button("Go Online"))
-            {
-                FirebaseDatabase.DefaultInstance.GoOnline();
-            }
-
-            GUILayout.EndVertical();
-            GUILayout.EndScrollView();
-        }
-    }
+//    void GUIDisplayControls()
+//    {
+//        if (UIEnabled)
+//        {
+//            controlsScrollViewVector =
+//                GUILayout.BeginScrollView(controlsScrollViewVector);
+//            GUILayout.BeginVertical();
+//            GUILayout.BeginHorizontal();
+//            GUILayout.Label("Email:", GUILayout.Width(Screen.width * 0.20f));
+//            email = GUILayout.TextField(email);
+//            GUILayout.EndHorizontal();
+//
+//            GUILayout.Space(20);
+//
+//            GUILayout.BeginHorizontal();
+//            GUILayout.Label("Score:", GUILayout.Width(Screen.width * 0.20f));
+//            int.TryParse(GUILayout.TextField(score.ToString()), out score);
+//            GUILayout.EndHorizontal();
+//
+//            GUILayout.Space(20);
+//
+//            if (!String.IsNullOrEmpty(email) && GUILayout.Button("Enter Score"))
+//            {
+//                AddScore();
+//            }
+//
+//            GUILayout.Space(20);
+//
+//            if (GUILayout.Button("Go Offline"))
+//            {
+//                FirebaseDatabase.DefaultInstance.GoOffline();
+//            }
+//
+//            GUILayout.Space(20);
+//
+//            if (GUILayout.Button("Go Online"))
+//            {
+//                FirebaseDatabase.DefaultInstance.GoOnline();
+//            }
+//
+//            GUILayout.EndVertical();
+//            GUILayout.EndScrollView();
+//        }
+//    }
 
     void GUIDisplayLeaders()
     {
@@ -319,7 +319,7 @@ public class UIHandler : MonoBehaviour
         GUILayout.EndArea();
 
         GUILayout.BeginArea(controlArea);
-        GUIDisplayControls();
+       
         GUILayout.EndArea();
     }
 }
